@@ -55,7 +55,7 @@ Route::get('/supporting-staff', 'HomeController@supportingstaff')->name('support
 
 
 
-// Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'AdminController@index')->name('home');
 
 // Auth::routes();
 
